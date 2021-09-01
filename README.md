@@ -1,16 +1,7 @@
-# tabata_timer
+This is yang original files yang lom be merge ke main application :
 
-A new Flutter application.
+Rujuk on Main Project punya ReadMe Ada tu instruction nya on how to run the apps and debugging apa, incase of error do text me up,
 
-## Getting Started
+Ya cani saja tu yang Main.dart aku replace with Exersice.dart kali tu nda salah ku so, just try research apa, 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+so far reason why ya nda functioning sal anu tu ya still dependent rh Main.dart cam runApp apa atu try ja to debug smpai functional
