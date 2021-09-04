@@ -8,12 +8,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 var player = AudioCache();
 
 Tabata get defaultTabata => Tabata(
-      sets: 5,
+      sets: 1,
       reps: 5,
-      startDelay: Duration(seconds: 10),
-      exerciseTime: Duration(seconds: 20),
-      restTime: Duration(seconds: 10),
-      breakTime: Duration(seconds: 60),
+      startDelay: Duration(seconds: 0),
+      exerciseTime: Duration(seconds: 6),
+      restTime: Duration(seconds: 6),
+      breakTime: Duration(seconds: 0),
     );
 
 class Settings {
@@ -35,12 +35,12 @@ class Settings {
     nightMode = json['nightMode'] ?? false;
     silentMode = json['silentMode'] ?? false;
     primarySwatch = Colors.primaries[
-        json['primarySwatch'] ?? Colors.primaries.indexOf(Colors.deepPurple)];
+        json['primarySwatch'] ?? Colors.primaries.indexOf(Colors.teal)];
     countdownPip = json['countdownPip'] ?? 'pip.mp3';
     startRep = json['startRep'] ?? 'boop.mp3';
-    startRest = json['startRest'] ?? 'dingdingding.mp3';
+    startRest = json['startRest'] ?? 'boop.mp3';
     startBreak = json['startBreak'] ?? 'dingdingding.mp3';
-    startSet = json['startSet'] ?? 'boop.mp3';
+    startSet = json['startSet'] ?? 'pip.mp3';
     endWorkout = json['endWorkout'] ?? 'dingdingding.mp3';
   }
 
