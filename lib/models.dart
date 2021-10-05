@@ -37,11 +37,11 @@ class Settings {
     primarySwatch = Colors.primaries[
         json['primarySwatch'] ?? Colors.primaries.indexOf(Colors.teal)];
     countdownPip = json['countdownPip'] ?? 'pip.mp3';
-    startRep = json['startRep'] ?? 'boop.mp3';
-    startRest = json['startRest'] ?? 'boop.mp3';
-    startBreak = json['startBreak'] ?? 'dingdingding.mp3';
-    startSet = json['startSet'] ?? 'pip.mp3';
-    endWorkout = json['endWorkout'] ?? 'dingdingding.mp3';
+    startRep = json['startRep'] ?? 'ambient.mp3';
+    startRest = json['startRest'] ?? 'ambient.mp3';
+    startBreak = json['startBreak'] ?? 'ambient.mp3';
+    startSet = json['startSet'] ?? 'ambient.mp3';
+    endWorkout = json['endWorkout'] ?? 'ambient.mp3';
   }
 
   save() {
